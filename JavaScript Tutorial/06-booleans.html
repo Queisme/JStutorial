@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Booleans & If-Statements</title>
+  </head>
+  <body>
+    <h1>Booleans & If-Statements</h1>
+
+    <h1>Rock Paper Scissors</h1>
+    <p>
+      <button
+        class="rock"
+        onclick="playerPick = 'rock'; console.log(`Players Pick: ${playerPick}`), getComputerChoice(), console.log(`Computers Pick: ${computerPick}`), compare();"
+      >
+        Rock
+      </button>
+      <button
+        class="paper"
+        onclick="playerPick = 'paper'; console.log(`Players Pick: ${playerPick}`), getComputerChoice(), console.log(`Computers Pick: ${computerPick}`),  compare();"
+      >
+        Paper
+      </button>
+      <button
+        class="scissors"
+        onclick="playerPick = 'scissors'; console.log(`Players Pick: ${playerPick}`), getComputerChoice(), console.log(`Computers Pick: ${computerPick}`), compare();"
+      >
+        Scissors
+      </button>
+    </p>
+
+    <h2>Falsy Values</h2>
+    <ul>
+      <li>false</li>
+      <li>0</li>
+      <li>''</li>
+      <li>NaN</li>
+      <li>undefined</li>
+      <li>null</li>
+    </ul>
+
+    <script src="script.js"></script>
+  </body>
+</html>
